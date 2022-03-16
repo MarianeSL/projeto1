@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+input {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-size: 16px;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* page */
+.content {
+  background-image: url(https://cnbl-cdn.bamgrid.com/assets/5113b24013b188b59517547965fc0ebd8d721fb55d0af048d3797ddb3f6e634c/original);
+}
+
+aside {
+  display:flex;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.75rem;
+  color: #ffff;
+  margin-bottom: 1.5rem;
+}
+
+img {
+  width: 20rem;
+}
+
+.btn-sign {
+  background-color: #7b00d6;
+  text-align: center;
+  color: #ffff;
+  border-radius: 4px;
+  width: 36.25rem;
+  height: 4.25rem;
+  margin-top: 1.5rem;
+}
